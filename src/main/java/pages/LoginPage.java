@@ -10,9 +10,9 @@ public class LoginPage {
     private WebDriver driver ; //private because we don't want to use it anywhere else
 
 
-    private By usernameLogin = By.id("user"); //accessing the username field
-    private By passwordLogin = By.id("pass"); //accessing the password field
-    private By buttonLogin = By.id("button"); //accessing the login button
+    private By usernameLogin = By.id("Email"); //accessing the username field
+    private By passwordLogin = By.id("Password"); //accessing the password field
+    private By buttonLogin = By.xpath("//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button");
 
                                //Action functions
 

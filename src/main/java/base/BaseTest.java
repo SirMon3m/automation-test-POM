@@ -17,7 +17,7 @@ public class BaseTest {
 
         driver.manage().window().maximize(); //maximizing the browser window
 
-        driver.get("https://www.bmw-egypt.com/en/configure.html"); // the tested website url
+        driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"); // the tested website url
 
 
 
@@ -28,7 +28,7 @@ public class BaseTest {
 
         if(driver != null){
 
-            driver.quit();
+//            driver.quit();
         }
     }
 
