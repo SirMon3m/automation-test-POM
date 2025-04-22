@@ -1,10 +1,7 @@
 package pages;
 
 import base.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,6 +14,8 @@ public class ConfigPage extends BaseTest {
 
     private By navButton = By.cssSelector("button.cmp-contentnavigation__list-link[data-anchor='#x']");
     private By ModelButton =By.cssSelector("a.cmp-modelcard__con-link[href=\"https://configure.bmw-egypt.com/en_EG/configure/G06/41EXMPERFORMANCE\"]");
+   
+
 
     public ConfigPage (WebDriver driver){
 
@@ -45,4 +44,12 @@ public class ConfigPage extends BaseTest {
         wait.until(ExpectedConditions.elementToBeClickable(modelElement)).click();
     }
 
-}
+
+
+    }
+
+
+
+
+
+

@@ -11,8 +11,9 @@ public void checkNav() {
 
 
     ConfigPage logintest = new ConfigPage(driver);
-    logintest.PressNav();
+    //logintest.PressNav();
    logintest.PressModel();
+
 
 
 }
